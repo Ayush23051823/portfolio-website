@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+  <!-- Dark background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0a0a0a" stroke="#333" stroke-width="4"/>
+
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#444" stroke-width="1.5"/>
+
+  <!-- Rupee symbol -->
+  <text x="100" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#c0c0c0">₹</text>
+
+</svg>

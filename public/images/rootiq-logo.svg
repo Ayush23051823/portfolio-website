@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60">
+
+  <!-- Root in white -->
+  <text x="8" y="46" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Root</text>
+
+  <!-- IQ in green -->
+  <text x="118" y="46" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#52b788">IQ</text>
+
+  <!-- Green dot accent under IQ -->
+  <circle cx="119" cy="55" r="4" fill="#52b788"/>
+  <circle cx="140" cy="55" r="4" fill="#52b788"/>
+
+</svg>

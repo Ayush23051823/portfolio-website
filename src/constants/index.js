@@ -13,7 +13,8 @@ const navLinks = [
   },
   {
     name: "Resume",
-    link: "https://drive.google.com/file/d/1VR2fNOtl_MoTDiM6S1TTL_h-QBDzBxZE/view?usp=drivesdk",
+    // TODO: Replace with your actual Google Drive resume link
+    link: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing",
   },
 ];
 
@@ -29,9 +30,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 5, suffix: "+", label: "Personal Projects" },
-  { value: 200, suffix: "+", label: "Github Contributions" },
-  { value: 5, suffix: "+", label: "Tech Stack Learned" },
+  { value: 3, suffix: "+", label: "Projects Built" },
+  { value: 100, suffix: "+", label: "GitHub Commits" },
+  { value: 20, suffix: "+", label: "UI Components" },
   { value: 100, suffix: "%", label: "Commitment to Learning" },
 ];
 
@@ -74,18 +75,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Clean Code",
+    desc: "Writing scalable, maintainable code with a focus on performance and best practices.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Problem Solver",
+    desc: "Strong DSA foundation in C/C++ with a structured approach to solving complex problems.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Fast Learner",
+    desc: "Continuously picking up new technologies and applying them to build real-world projects.",
   },
 ];
 
@@ -107,7 +108,7 @@ const techStackImgs = [
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Project Manager",
+    name: "Version Control",
     imgPath: "/images/logos/git.svg",
   },
 ];
@@ -138,7 +139,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Version Control",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -148,41 +149,42 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Sikka is a real-time crypto tracking platform with live WebSocket data streaming, clean React architecture, and solid API design.",
+    imgPath: "/images/sikka.svg",
+    logoPath: "/images/sikka-logo.svg",  // ← your Sikka logo (rename it to sikka-logo.png for clarity)
+    title: "Sikka – Crypto Trading App",
+    date: "Oct 2025 – Jan 2026",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed real-time crypto tracking with live price updates using WebSocket-based data streaming.",
+      "Built responsive trading dashboard with reusable React components and dynamic chart rendering.",
+      "Implemented RESTful APIs for user authentication, portfolio management, and transaction handling.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+      "Mivi is a full-stack OTT platform with clean backend architecture, protected routes, and thoughtful content management.",
+    imgPath: "/images/mivi.svg",
+    logoPath: "/images/mivi-logo.svg",  // ← whatever you named the Mivi image
+    title: "Mivi – OTT Streaming Platform",
+    date: "Oct 2025 – Dec 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Designed and developed a full-stack OTT platform with user authentication and protected routes.",
+      "Developed REST APIs for content management, user profiles, and watch history tracking.",
+      "Structured backend with scalable routing and middleware-based request handling.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "A smart AI-powered irrigation system that predicts water needs using machine learning, helping farmers optimize usage and reduce waste.",
+    imgPath: "/images/rootiq-logo.svg",
+    logoPath: "/images/irrigation.svg",  // ← already added ✅
+    title: "Smart Irrigation System",
+    date: "2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed an AI-based irrigation system using Random Forest for both classification and regression tasks.",
+      "Built an interactive Streamlit dashboard for real-time prediction and visualization.",
+      "Implemented data preprocessing, feature engineering, model evaluation, and CSV report generation.",
+      "Deployed the full application on Streamlit Cloud.",
     ],
   },
 ];
@@ -202,8 +204,6 @@ const expLogos = [
   },
 ];
 
-
-
 const socialImgs = [
   {
     name: "insta",
@@ -212,7 +212,7 @@ const socialImgs = [
   },
   {
     name: "Github",
-    url: "https://github.com/Ayush23051823 ",
+    url: "https://github.com/Ayush23051823",
     imgPath: "/images/github.png",
   },
   {
@@ -222,7 +222,7 @@ const socialImgs = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/ayush-srivastava-4373662a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
+    url: "https://www.linkedin.com/in/ayush-srivastava-4373662a9",
     imgPath: "/images/linkedin.png",
   },
 ];

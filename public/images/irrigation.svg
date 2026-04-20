@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+  <circle cx="100" cy="100" r="95" fill="#0f1f15" stroke="#2d6a4f" stroke-width="4"/>
+
+  <!-- Leaf -->
+  <path d="M100 40 C140 55 165 90 158 135 C150 168 124 185 100 190 C76 185 50 168 42 135 C35 90 60 55 100 40Z" fill="#1b4332" stroke="#40916c" stroke-width="2"/>
+
+  <!-- Center vein -->
+  <line x1="100" y1="48" x2="100" y2="185" stroke="#52b788" stroke-width="2"/>
+
+  <!-- Left veins -->
+  <line x1="100" y1="90"  x2="62" y2="112" stroke="#52b788" stroke-width="1.2"/>
+  <line x1="100" y1="115" x2="56" y2="135" stroke="#52b788" stroke-width="1.2"/>
+  <line x1="100" y1="140" x2="62" y2="158" stroke="#52b788" stroke-width="1.2"/>
+
+  <!-- Right veins -->
+  <line x1="100" y1="90"  x2="138" y2="112" stroke="#52b788" stroke-width="1.2"/>
+  <line x1="100" y1="115" x2="144" y2="135" stroke="#52b788" stroke-width="1.2"/>
+  <line x1="100" y1="140" x2="138" y2="158" stroke="#52b788" stroke-width="1.2"/>
+
+  <!-- Water drop -->
+  <path d="M126 128 C126 108 146 96 146 80 C146 64 136 54 126 54 C116 54 106 64 106 80 C106 96 126 108 126 128Z" fill="#1a5276" stroke="#3498db" stroke-width="2"/>
+  <ellipse cx="121" cy="73" rx="4" ry="7" fill="#5dade2" opacity="0.6" transform="rotate(-20 121 73)"/>
+
+  <!-- Circuit nodes on vein -->
+  <circle cx="100" cy="90"  r="3.5" fill="#74c69d"/>
+  <circle cx="100" cy="115" r="3.5" fill="#74c69d"/>
+  <circle cx="100" cy="140" r="3.5" fill="#74c69d"/>
+
+  <!-- Side circuit lines -->
+  <line x1="20" y1="100" x2="42" y2="100" stroke="#40916c" stroke-width="1.5"/>
+  <circle cx="16" cy="100" r="3" fill="#52b788"/>
+
+  <line x1="158" y1="100" x2="180" y2="100" stroke="#40916c" stroke-width="1.5"/>
+  <circle cx="184" cy="100" r="3" fill="#52b788"/>
+
+</svg>
