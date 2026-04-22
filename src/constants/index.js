@@ -14,7 +14,7 @@ const navLinks = [
   {
     name: "Resume",
     // TODO: Replace with your actual Google Drive resume link
-    link: "https://drive.google.com/file/d/1MQXLHTEUw5JPlfn6cJN8MC2sKEs3kDMQ/view?usp=drivesdk",
+    link: "https://drive.google.com/file/d/1b2fBoLXE2y1_5mCkZcd_fteWK5Ajm2EF/view?usp=drivesdk",
   },
 ];
 
